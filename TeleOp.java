@@ -117,8 +117,8 @@ public class TeleOp extends LinearOpMode {
             } else if (gamepad1.x) {
                 speed = 0.25;
             } else {
-				speed = 1;
-			}
+                speed = 1;
+            }
             
             // POV Mode uses left joystick to go forward & strafe, and right joystick to rotate.
             double axial   = -gamepad1.left_stick_y;  // Note: pushing stick forward gives negative value
